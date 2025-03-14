@@ -16,3 +16,7 @@ Developing a Responsive News API App using HTML, CSS, JavaScript, and the Bootst
 
 Project Overview:
 The News API app integrates the News API to retrieve news articles from various sources. The app consists of a search bar where users can type in keywords to search for specific news. The fetched data is dynamically displayed using Bootstrap’s grid system to ensure a responsive and organized layout. The app includes modern design elements like shadows, hover effects, and a color gradient to enhance the user experience.
+
+#OUTPUT:
+
+![Image](https://github.com/user-attachments/assets/780ef8ad-bcd0-4241-b62a-fe21e456fbb8)
