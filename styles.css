@@ -1,0 +1,127 @@
+/* Global Styles */
+body {
+    background: linear-gradient(to right, #ff7eb3, #ff758c);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  
+  /* Search Bar */
+  .input-group {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #searchInput {
+    border: 2px solid #ff4e50;
+    border-right: none;
+    padding: 12px;
+    font-size: 1rem;
+    color: #333;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+  }
+  
+  .btn-custom {
+    background-color: #ff4e50;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-custom:hover {
+    background-color: #ff2e2e;
+  }
+  
+  /* News Card */
+  .card {
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    color: #ff4e50;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .card-text {
+    color: #555;
+    font-size: 1rem;
+  }
+  
+  .card a {
+    background-color: #ff4e50;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
+  
+  .card a:hover {
+    background-color: #ff2e2e;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    #searchInput {
+      font-size: 0.9rem;
+    }
+  
+    .btn-custom {
+      font-size: 0.9rem;
+    }
+  
+    .card img {
+      height: 150px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    .card img {
+      height: 120px;
+    }
+  
+    .card-title {
+      font-size: 1.1rem;
+    }
+  }
+  
